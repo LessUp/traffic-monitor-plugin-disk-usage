@@ -1,0 +1,146 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS_DIALOG DIALOGEX 0, 0, 220, 80
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Disk Usage Settings"
+FONT 9, "Segoe UI", 400, 0, 0x0
+BEGIN
+    LTEXT           "Select disk to monitor:",IDC_STATIC_DISK_LABEL,7,10,100,10
+    COMBOBOX        IDC_COMBO_DISK,7,24,130,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,103,59,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,160,59,50,14
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "LessUp"
+            VALUE "FileDescription", "Disk Usage Plugin for TrafficMonitor"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "DiskUsage.dll"
+            VALUE "LegalCopyright", "Copyright (C) 2024"
+            VALUE "OriginalFilename", "DiskUsage.dll"
+            VALUE "ProductName", "Disk Usage Plugin for TrafficMonitor"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_PLUGIN_NAME         "Disk Usage"
+    IDS_PLUGIN_DESCRIPTION  "Displays Windows disk usage percentage. Supports total disk usage or a specific drive."
+    IDS_ITEM_TOTAL_DISK     "Total Disk Usage"
+    IDS_ITEM_DISK_PREFIX    "Disk "
+    IDS_LABEL_TOTAL         "Disk:"
+    IDS_LABEL_DISK_PREFIX   "Disk "
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS_DIALOG DIALOGEX 0, 0, 220, 80
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "\u78c1\u76d8\u5360\u7528\u7387\u8bbe\u7f6e"
+FONT 9, "\u5fae\u8f6f\u96c5\u9ed1", 400, 0, 0x0
+BEGIN
+    LTEXT           "\u9009\u62e9\u8981\u76d1\u63a7\u7684\u78c1\u76d8\uff1a",IDC_STATIC_DISK_LABEL,7,10,120,10
+    COMBOBOX        IDC_COMBO_DISK,7,24,130,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "\u786e\u5b9a",IDOK,103,59,50,14
+    PUSHBUTTON      "\u53d6\u6d88",IDCANCEL,160,59,50,14
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_PLUGIN_NAME         "\u78c1\u76d8\u5360\u7528\u7387"
+    IDS_PLUGIN_DESCRIPTION  "\u663e\u793a Windows \u78c1\u76d8\u5360\u7528\u7387\uff0c\u652f\u6301\u6240\u6709\u78c1\u76d8\u603b\u5360\u7528\u7387\u6216\u6307\u5b9a\u78c1\u76d8\u7684\u5360\u7528\u7387\u3002"
+    IDS_ITEM_TOTAL_DISK     "\u78c1\u76d8\u603b\u5360\u7528\u7387"
+    IDS_ITEM_DISK_PREFIX    "\u78c1\u76d8 "
+    IDS_LABEL_TOTAL         "\u78c1\u76d8:"
+    IDS_LABEL_DISK_PREFIX   "\u78c1\u76d8 "
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

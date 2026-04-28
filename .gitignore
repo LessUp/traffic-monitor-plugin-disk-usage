@@ -1,0 +1,28 @@
+# Visual Studio / MSBuild artifacts
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+.vs/
+ipch/
+x64/
+Win32/
+Debug/
+Release/
+bin/
+
+# Object / intermediate files
+*.obj
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.log
+
+# Generated files by VS resource editor (keep .rc source but ignore binary)
+*.aps
